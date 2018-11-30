@@ -2,9 +2,10 @@
   "name": "@angstrom/mvc",
   "version": "1.0.0",
   "description": "Microscopic MVC framework",
-  "main": "Angstrom.js",
+  "main": "dist/Angstrom.js",
   "scripts": {
-    "test": "mocha test/*Spec.js"
+    "test": "mocha test/*Spec.js",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
@@ -21,6 +22,8 @@
   },
   "homepage": "https://github.com/lsmith-zenoscave/angstrom-mvc#readme",
   "devDependencies": {
-    "mocha": "^5.2.0"
+    "mocha": "^5.2.0",
+    "webpack": "^4.26.1",
+    "webpack-cli": "^3.1.2"
   }
 }
