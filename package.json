@@ -1,0 +1,26 @@
+{
+  "name": "@angstrom/mvc",
+  "version": "1.0.0",
+  "description": "Microscopic MVC framework",
+  "main": "Angstrom.js",
+  "scripts": {
+    "test": "mocha test/*Spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lsmith-zenoscave/angstrom-mvc.git"
+  },
+  "keywords": [
+    "MVC",
+    "tiny"
+  ],
+  "author": "Luke Smith",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lsmith-zenoscave/angstrom-mvc/issues"
+  },
+  "homepage": "https://github.com/lsmith-zenoscave/angstrom-mvc#readme",
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  }
+}
