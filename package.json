@@ -9,7 +9,7 @@
     "pretest": "standard  src/*.js test/*.js ./*.js",
     "test": "mocha --require babel-register --colors ./test/*.spec.js",
     "test:watch": "mocha --require babel-register --colors -w ./test/*.spec.js",
-    "test:cover": "cross-env NODE_ENV=test nyc --all mocha --require babel-register --colors ./test/*.spec.js",
+    "test:cover": "cross-env NODE_ENV=test nyc --all --reporter=lcovonly mocha --require babel-register --colors ./test/*.spec.js",
     "test:report": "cross-env NODE_ENV=test nyc --all --reporter=html mocha --require babel-register ./test/*.spec.js"
   },
   "repository": {
@@ -58,6 +58,7 @@
       "**/*.spec.js",
       "node_modules",
       "webpack.config.js",
+      "coverage",
       "dist"
     ]
   }
