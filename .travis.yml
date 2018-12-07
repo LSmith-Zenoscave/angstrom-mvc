@@ -1,3 +1,12 @@
 language: node_js
 node_js:
-  - "node"
+- node
+deploy:
+  provider: npm
+  email: lsmith@zenoscave.com
+  api_key:
+    secure: g/TMT/RrHlWWhMjzThhNEV1FxLgQudkB8SBk2gAxsr0Tr09Uc7Xc2gSjTllGOKEksDnlbjlVDjj4ROgUJv5UbA0ltvWD0sOxruWbLKJVmWgOuCSyn/0IwFjiY6ecGU7S9Pdkv9rX76qe8P8vFdYO9RhZjCHxipKJQNwE4Xv9CfAKRuYeY8H57ZfU+3DTz8fPFM+Kh3sxlmq4uQzNCV4ONzFSissK0GA3lFOaxa2LRC2ANAMj2uQuXCXZWqs0SL9dozt5XmngBXUCGIqm74alrEIhbYkc7nf9MhwloqxA/JxopUqN30piXKVFG3UwiDTgcBdZrxxCWd5KjaPQ8vYf5orTFwh/tGpn/AMCMOBx0CLnZWz9e0N4ezAeufu6qYRyqc36OOFAtESvZStRdmhC8B41w6YH5mF28yPgyiz03kWaFuK8SHqsp10W/X3/aS+7ORAgLSZCg5yx60gQ5XWSagAPsuON0JuqhgtjJnCESF2YJmUezDtg2DuDBF0TnnVFUQadhU/CXylyAuanBUGb5zvlxBDovfur+cCTLiZ7VuDlCUawZr8skW7ZvQRI2LspkzL85y2xfK0SZInUhJEGQHdX8TcAeK5VwCpdpjCL3MR1TTtgvhhB3d/Ey/qyMEFmZPKK1SNIK1oPq7ohKuHUcFSOzDqoLxrA4m37BNBb2Rk=
+  on:
+    tags: true
+    repo: LSmith-Zenoscave/angstrom-mvc
+    branch: master
