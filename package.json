@@ -1,6 +1,6 @@
 {
   "name": "@angstrom/mvc",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Microscopic MVC framework",
   "main": "dist/@angstrom/mvc.js",
   "scripts": {
